@@ -33,14 +33,6 @@ AddEventHandler('__cfx_internal:commandFallback', function(command)
     CancelEvent()
 end)
 
--- player join messages
-AddEventHandler('chat:init', function()
-    TriggerClientEvent('chatMessage', -1, '', { 255, 255, 255 }, '^3Welcome | ^0' .. GetPlayerName(source) .. '^3 to FiveM Legacy | FS 2021')
-end)
-
-AddEventHandler('playerDropped', function(reason)
-    TriggerClientEvent('chatMessage', -1, '', { 255, 255, 255 }, '^3Player^0: ' .. GetPlayerName(source) ..' Disconnected Reason: (' .. reason .. ')')
-end)
 
 RegisterCommand('say', function(source, args, rawCommand)
     TriggerClientEvent('chatMessage', -1, (source == 0) and 'console' or GetPlayerName(source), { 255, 255, 255 }, rawCommand:sub(5))
