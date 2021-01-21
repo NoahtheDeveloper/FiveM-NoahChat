@@ -16,8 +16,14 @@
 > 
 > > ![alt text](https://cdn.discordapp.com/attachments/779842019723313162/800854941321003028/unknown.png)
 > 
+
 > > **Commands**
 > /togglechat
+> 
+> 
+> > Servers that use my script! 
+> 
+> > ![alt text](https://cdn.discordapp.com/attachments/706446610929811507/801633188979146772/unknown.png)
 > 
 > **Optional**
 > These are optional messages you can include to your sv_chat.lua for messages welcoming indivuals to your server. To add them copy and paste and fill in your server name where it says server name. The seccond message is a leave message.
